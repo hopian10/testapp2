@@ -1,0 +1,27 @@
+{
+  "name": "StaticSiteGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "reza-ssg": "./index.js"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "prettier": "prettier --write .",
+    "prettier-check": "prettier --check .",
+    "eslint": "eslint --config .eslintrc.js ."
+  },
+  "author": "Reza Poursafa",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "showdown": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "prettier": "2.4.1",
+    "pretty-quick": "^3.1.1"
+  }
+}
