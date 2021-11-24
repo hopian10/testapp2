@@ -9,6 +9,7 @@
   "scripts": {
     "test": "jest --coverage",
     "prettier": "prettier --write .",
+    "commit": "git-cz",
     "prettier-check": "prettier --check .",
     "eslint": "eslint --config .eslintrc.js .",
     "semantic-release": "semantic-release"
