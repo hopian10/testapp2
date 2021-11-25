@@ -28,11 +28,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm test
-    - name: Release
+#     - name: Release
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: npx semantic-release
+#         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       run: npx semantic-release
 #     - run: npm run semantic-release
 #       env: 
 #         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
