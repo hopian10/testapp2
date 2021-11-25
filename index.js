@@ -9,7 +9,7 @@ program.version(require("./package.json").version); // Getting the verison of th
 program
   .option("-i ,--index", "Single txt file") // option for adding a single text file
   .option("-c ,--config", "JSON configuration file")
-  .option("--coverage , Testing with code coverage");
+  .option("--coverage , Testing with code coverage ");
 
 program.parse(process.argv);
 const options = program.opts(); // The --index or -i options
